@@ -8,3 +8,5 @@ Crop prediction is an essential task for the decision-makers at national and reg
 ## Dataset
 
 ## Model
+
+KNN is a supervised learning algorithm, meaning that the examples in the dataset must have labels assigned to them/their classes must be known. There are two other important things to know about KNN. First, KNN is a non-parametric algorithm.
