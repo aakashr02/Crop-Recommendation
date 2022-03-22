@@ -20,4 +20,5 @@ The dataset contains 2200 rows and 8 cloumns. The values of columns 1 to 7 ['N',
  #### Target variable: Crop
 
 ## Model
-KNN is a supervised learning algorithm, meaning that the examples in the dataset must have labels assigned to them/their classes must be known. There are two other important things to know about KNN. First, KNN is a non-parametric algorithm.
+K-Nearest Neighbor also known as KNN is a supervised learning algorithm that can be used for regression as well as classification problems. Generally, it is used for classification problems in machine learning. First, KNN is a non-parametric algorithm. KNN works on a principle assuming every data point falling in near to each other is falling in the same class. In other words, it classifies a new data point based on similarity
+
