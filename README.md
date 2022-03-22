@@ -20,5 +20,13 @@ The dataset contains 2200 rows and 8 cloumns. The values of columns 1 to 7 ['N',
  #### Target variable: Crop
 
 ## Model
-K-Nearest Neighbor also known as KNN is a supervised learning algorithm that can be used for regression as well as classification problems. Generally, it is used for classification problems in machine learning. First, KNN is a non-parametric algorithm. KNN works on a principle assuming every data point falling in near to each other is falling in the same class. In other words, it classifies a new data point based on similarity
+K-Nearest Neighbor also known as KNN is a supervised learning algorithm that can be used for regression as well as classification problems. Generally, it is used for classification problems in machine learning. First, KNN is a non-parametric algorithm. KNN works on a principle assuming every data point falling in near to each other is falling in the same class. In other words, it classifies a new data point based on similarity. KNN algorithm at the training phase just stores the dataset and when it gets new data, then it classifies that data into a category that is much similar to the new data.
+
+Working of KNN algorithm: 
+
+1. First select the number K of the neighbors 
+2. Calculate the Euclidean distance of K number of neighbors 
+3. Take the K nearest neighbors as per the calculated Euclidean distance. 
+4. Among these k neighbors, count the number of the data points in each category. 
+5. Assign the new data points to that category for which the number of the neighbor is maximum. Model is ready 
 
